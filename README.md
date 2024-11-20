@@ -25,11 +25,11 @@ Clona este repositorio en tu máquina local:
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 
-### 2. Instala las bibliotecas necesarias
+# 2. Instala las bibliotecas necesarias
 Ejecuta el siguiente comando para instalar las dependencias necesarias:
 **pip install pandas matplotlib seaborn mysql-connector-python tk**
 
-### 3. Configura la base de datos MySQL
+# 3. Configura la base de datos MySQL
 •	Crea una base de datos
 Abre MySQL y ejecuta el siguiente comando:
 **CREATE DATABASE ENCUESTAS**
@@ -67,31 +67,31 @@ En el archivo principal del proyecto, localiza la configuración de conexión a 
             database="ENCUESTAS"
         )**
 
-### 4. Ejecuta la aplicación
+# 4. Ejecuta la aplicación
 Ejecuta el archivo principal del proyecto:
 
-### Uso de la aplicación
-1. Registrar encuestas
-1.	Ve a la pestaña Encuesta.
-2.	Llena los campos correspondientes con los datos de la encuesta.
-3.	Haz clic en Guardar Encuesta para registrar la información en la base de datos.
-2. Visualizar registros
-1.	Ve a la pestaña Registros.
-2.	Haz clic en Cargar Registros para mostrar los datos almacenados en la base de datos.
-3.	Utiliza los filtros disponibles (Sexo, Edad, Dolor de Cabeza) para refinar los resultados.
-4.	Exporta los datos filtrados a un archivo Excel usando el botón Exportar a Excel.
-3. Realizar operaciones CRUD
-•	Actualizar registros:
-1.	Selecciona un registro en la tabla.
-2.	Haz clic en Actualizar Registro para modificar los datos seleccionados.
-•	Eliminar registros:
-1.	Selecciona un registro en la tabla.
-2.	Haz clic en Eliminar Registro para eliminarlo de la base de datos.
-4. Visualizar gráficos
-1.	Ve a la pestaña Diseño Gráfico.
-2.	Selecciona una categoría de la lista desplegable (e.g., Sexo, BebidasSemana).
-3.	Haz clic en Mostrar Gráfico para generar un gráfico basado en los datos.
-5. Análisis de tendencias
-1.	Ve a la pestaña Análisis de Tendencias.
-2.	Selecciona dos preguntas de las listas desplegables.
-3.	Haz clic en Análisis de Tendencias para generar un gráfico que muestre la relación entre las preguntas seleccionadas.
+    # Uso de la aplicación
+    **1. Registrar encuestas**
+        1.	Ve a la pestaña Encuesta.
+        2.	Llena los campos correspondientes con los datos de la encuesta.
+        3.	Haz clic en Guardar Encuesta para registrar la información en la base de datos.
+    **2. Visualizar registros**
+        1.	Ve a la pestaña Registros.
+        2.	Haz clic en Cargar Registros para mostrar los datos almacenados en la base de datos.
+        3.	Utiliza los filtros disponibles (Sexo, Edad, Dolor de Cabeza) para refinar los resultados.
+        4.	Exporta los datos filtrados a un archivo Excel usando el botón Exportar a Excel.
+    **3. Realizar operaciones CRUD**
+        •	Actualizar registros:
+            1.	Selecciona un registro en la tabla.
+            2.	Haz clic en Actualizar Registro para modificar los datos seleccionados.
+        •	Eliminar registros:
+            1.	Selecciona un registro en la tabla.
+            2.	Haz clic en Eliminar Registro para eliminarlo de la base de datos.
+    **4. Visualizar gráficos**
+        1.	Ve a la pestaña Diseño Gráfico.
+        2.	Selecciona una categoría de la lista desplegable (e.g., Sexo, BebidasSemana).
+        3.	Haz clic en Mostrar Gráfico para generar un gráfico basado en los datos.
+    **5. Análisis de tendencias**
+        1.	Ve a la pestaña Análisis de Tendencias.
+        2.	Selecciona dos preguntas de las listas desplegables.
+        3.	Haz clic en Análisis de Tendencias para generar un gráfico que muestre la relación entre las preguntas                       seleccionadas.
